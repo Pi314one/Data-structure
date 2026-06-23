@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="7d36ff56a3364cf1baec15b3412161e3" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_7d36ff56a3364cf1baec15b3412161e3 = echarts.init(
+            document.getElementById('7d36ff56a3364cf1baec15b3412161e3'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_7d36ff56a3364cf1baec15b3412161e3 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "tree",
+            "name": "Binary Search Tree",
+            "data": [
+                {
+                    "name": "50",
+                    "children": [
+                        {
+                            "name": "30",
+                            "children": [
+                                {
+                                    "name": "20"
+                                },
+                                {
+                                    "name": "40"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "70",
+                            "children": [
+                                {
+                                    "name": "60"
+                                },
+                                {
+                                    "name": "80"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "zoom": 1,
+            "symbol": "emptyCircle",
+            "symbolSize": 7,
+            "edgeShape": "curve",
+            "edgeForkPosition": "50%",
+            "roam": false,
+            "expandAndCollapse": true,
+            "layout": "orthogonal",
+            "orient": "LR",
+            "label": {
+                "show": true,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "leaves": {},
+            "selectedMode": false
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "displayTransition": true,
+        "textStyle": {
+            "fontSize": 14,
+            "richInheritPlainLabel": true
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    }
+};
+        chart_7d36ff56a3364cf1baec15b3412161e3.setOption(option_7d36ff56a3364cf1baec15b3412161e3);
+    </script>
+</body>
+</html>
